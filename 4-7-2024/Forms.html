@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <center>
+        <h1>Input field</h1>
+        <input type="text">
+        <br>
+        <br>
+        <input type="password">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="time">
+        <br>
+        <br>
+        <input type="color">
+        <br>
+        <br>
+        <input type="number">
+        <br>
+        <hr>
+        <h1>Place holder,labels and button</h1>
+        <!-- labels are use to give caption from user -->
+        <label for="username">user name:</label>
+        <input type="text" id="username" placeholder="enter username">
+        <br>
+        <br>
+        <label for="paswword">Password:</label>
+        <input type="Password" id="password" placeholder="enter password">
+        <hr>
+        <h1>Button tag</h1>
+        <button type="submit">Submit</button>
+        <br>
+        <button type="reset">Submit</button>
+        <hr>
+        <h1>Checkbox</h1>
+        <!-- checked ids used to give check sign permanet -->
+        <label for="age">Age</label>
+        <input type="checkbox" id="age" checked><hr>
+        <h1>Radio button</h1>
+        <input type="radio" id="Male" name="gender" value="male">
+        <label for="Male">Male</label>
+        <br>
+        <input type="radio" id="Female" name="gender" value="female">
+        <label for="Female">Female</label>
+        <br>
+        <hr>
+        <h1>range</h1>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="100" value="70" step="20"><hr>
+        <h1>Dropdown</h1>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab" selected>Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select><hr>
+        <label for="w3review">Text area:</label>
+
+        <textarea id="area" name="area" rows="4" cols="10">hello
+        </textarea><hr>
+      </center>
+    </form>
+  </body>
+</html>
