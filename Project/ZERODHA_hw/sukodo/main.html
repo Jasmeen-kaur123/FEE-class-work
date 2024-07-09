@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <style>
+    .grey {
+      background-color: rgba(128, 128, 128, 0.389);
+      width: 90px;
+      height: 60px;
+      text-align: center;
+    }
+
+    .pink {
+      background-color: rgba(255, 192, 203, 0.721);
+      width: 90px;
+      height: 60px;
+      text-align: center;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+      border: 2px solid black;
+      width: 180px;
+      height: 190px;
+    }
+
+    .main1,
+    .main2,
+    .main3 {
+      display: flex;
+    }
+
+    .button {
+      width: 100px;
+      height: 100px;
+      background-color: rgba(128, 128, 128, 0.285);
+      text-align: center;
+      border: 3px solid black;
+    }
+
+    .button1 {
+      border: 2px solid black;
+    }
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    
+    <div class="heading">
+      <div>
+        <h2>SUDOKU</h2>
+      </div>
+      <div>
+        <a href="">
+          <h2>DAILY CHALLENGES</h2>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <h2>AWARDS</h2>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <h2>RULES</h2>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <h2>MORE</h2>
+        </a>
+      </div>
+      <div>
+        <a href="">
+          <h2>LOGIN</h2>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <label for="level">level</label>
+    <select name="level" id="level">
+      <option value="EASY" selected>EASY</option>
+      <option value="MEDIUM">MEDIUM</option>
+      <option value="DIFFICULT">DIFFICULT</option>
+      <option value="HARD">HARD</option>
+    </select>
+    <br>
+    <br>
+    <div class="main">
+      <div class="main1">
+        <div class="box1">
+          <table>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>9</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="pink">
+                <b>2</b>
+              </td>
+              <td class="grey">
+                <b>4</b>
+              </td>
+              <td class="pink">
+                <b>1</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>8</b>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="box1">
+          <table>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey"></td>
+              <td class="pink"></td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>5</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>3</b>
+              </td>
+              <td class="pink"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="box1">
+          <table>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>6</b>
+              </td>
+              <td class="grey">
+                <b>4</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="pink">
+                <b>8</b>
+              </td>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>3</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>9</b>
+              </td>
+              <td class="grey"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="main2">
+        <div class="box2">
+          <table>
+            <tr>
+              <td class="pink">
+                <b>1</b>
+              </td>
+              <td class="grey">
+                <b>2</b>
+              </td>
+              <td class="pink"></td>
+            </tr>
+            <tr>
+              <td class="grey">
+                <b>4</b>
+              </td>
+              <td class="pink"></td>
+              <td class="grey"></td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>7</b>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="box2">
+          <table>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey"></td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey"></td>
+              <td class="pink"></td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="box2">
+          <table>
+            <tr>
+              <td class="pink">
+                <b>3</b>
+              </td>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>6</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="grey">
+                <b>7</b>
+              </td>
+              <td class="pink"></td>
+              <td class="grey"></td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>1</b>
+              </td>
+              <td class="pink">
+                <b>9</b>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="main3">
+        <div class="box3">
+          <table>
+            <tr>
+              <td class="grey">
+                <b>3</b>
+              </td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>6</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="pink">
+                <b>5</b>
+              </td>
+              <td class="grey">
+                <b>1</b>
+              </td>
+              <td class="pink">
+                <b>4</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>8</b>
+              </td>
+              <td class="grey"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="box3">
+          <table>
+            <tr>
+              <td class="pink">
+                <b>9</b>
+              </td>
+              <td class="grey"></td>
+              <td class="pink"></td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>7</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>5</b>
+              </td>
+              <td class="pink"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="box3">
+          <table>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey"></td>
+            </tr>
+            <tr>
+              <td class="pink"></td>
+              <td class="grey"></td>
+              <td class="pink">
+                <b>2</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="grey"></td>
+              <td class="pink"></td>
+              <td class="grey">
+                <b>7</b>
+              </td>
+            </tr>
+          </table>
+        </div>
+        
+        <div>
+          <h2>Mistakes:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Score:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timer:</h2>
+          <table class="button1">
+            <tr>
+              <td class="button">
+                <b>1</b>
+              </td>
+              <td class="button">
+                <b>2</b>
+              </td>
+              <td class="button">
+                <b>3</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="button">
+                <b>4</b>
+              </td>
+              <td class="button">
+                <b>5</b>
+              </td>
+              <td class="button">
+                <b>6</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="button">
+                <b>7</b>
+              </td>
+              <td class="button">
+                <b>8</b>
+              </td>
+              <td class="button">
+                <b>9</b>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      </div>
+    
+       
+    </div>
+  </body>
+</html>

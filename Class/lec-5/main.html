@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="c1">
+    <img src="logo.png" width="80" height="80">
+    <h1>
+        ABC PUBLIC SCHOOL<br>
+        ADMISSION FORM
+    </h1>    
+   </div>
+  <form>  
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="fname"><b>Father name</b></label>
+    <input type="text" id="faname" name="faname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="lname"><b>Mother name</b></label>
+    <input type="text" id="mname" name="mname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    <b>Date of birth:</b>
+    <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b>Phone Number:</b>
+    <select name="phone" id="phone">
+        <option value="+91"selected>+91</option>
+        <option value="+1" >+1</option>
+        <option value="+93">+93</option>
+        <option value="+32">+32</option>
+        <input type="number">
+    </select><br>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="..@gmail.com">
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Type here"><br>
+    <b>Gender:</b><br>
+    <input type="radio" id="Male" name="gender" value="male">
+    <label for="Male">Male</label>
+    <input type="radio" id="Female" name="gender" value="female">
+    <label for="Female">Female</label><br>
+    <b>City:</b><input type="text" id="City" name="City"><br>
+    <b>State:</b><input type="text" id="state" name="state"><br>
+    <label> Choose the File to upload: </label>
+    <input type="file" id="myFile" /> 
+    <input type="checkbox" id="conditions" checked>
+    <label for="conditions">Terms & Conditions Accepted</label><br>
+    <div style="text-align:center">
+        <button type="submit">Submit</button>
+    </div>
+    
+
+
+
+   </form>
+   
+</body>
+</html>
