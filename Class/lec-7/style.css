@@ -1,0 +1,25 @@
+/* universal selector */
+*{
+  padding-left: 10px;
+  color: crimson;  
+  margin-left: 40px;
+}
+#para{
+    color: blue;
+}
+.p{
+    color:chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    border: 2px solid pink;
+}
+input[type="text"]{
+    background-color:pink;
+}
+input[type="password"]{
+    background-color:blueviolet;
+}
+[placeholder="..@gmmail.com"]{
+    background-color: pink;
+}

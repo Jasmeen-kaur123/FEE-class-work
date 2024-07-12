@@ -1,0 +1,42 @@
+.image{
+    margin-left:  650px;
+}
+.main{
+    margin-left:  550px;
+    background-color: rgba(128, 128, 128, 0.164);
+   width: 480px;
+   height: 450px;
+}
+h1{
+    color: brown;
+    margin-left:  200px;
+   padding-top:15px ;
+}
+input{
+    width:250px;
+     height:20px;
+}
+button{
+    width:95%;
+    height:20px;
+    background-color: brown;
+    color: white;
+}
+.main2{
+    background-color: rgba(128, 128, 128, 0.164);
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 80px;
+}
+p{
+    color: brown;
+}
+h2{
+    margin-left:350px;
+}
+.main3{
+    margin-left:290px;
+}
+body{
+    background-image:url('chitkara_university_pic.jpg');
+}
