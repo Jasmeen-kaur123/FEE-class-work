@@ -1,0 +1,20 @@
+/* decendent selector */
+ul li a{
+    color:red;
+    text-decoration: dashed;
+    font-size: 40px;
+}
+/* child selector */
+ol > li{
+    color: blueviolet;
+    font-size:20px;
+}
+/* adjacent */
+h1 + p {
+    color:pink;
+
+}
+div ~ ol{
+    background-color: red;
+    border-top: 4px solid yellow;
+}
