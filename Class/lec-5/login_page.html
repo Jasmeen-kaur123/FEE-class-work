@@ -1,96 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="login_page.css">
     <title>Document</title>
-</head>
-<body>
-    <div class="image">
-        <img src="chitkara_logo.png" width="300" height="100">
-    </div>
-    <div class="main">
-        <h1>LOG IN</h1>
-        <div class="main2">
-    <form>
-        <label for="username">USERNAME</label><br>
-        <input type="number" id="username" name="username"><br><br>
-        <label for="password">PASSWORD</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        
+  </head>
+  <body>
+		<img class="top-right" src="./cb_top_right_icon.png" >
+    <div class="main2">
+      <div class="logo-section">
+        <img src="logo_373.png" height="100">
+      </div>
+      <form>
+        <div class="form-inputs">
+          <label for="username">Username</label>
+          <input class="input" type="number" id="username" name="username" />
+        </div>
+        <div class="form-inputs">
+          <label for="password">Password</label>
+          <input class="input" type="password" id="password" name="password" />
+        </div>
+        <div class="form-inputs">
+          <label for="Session">Session</label>
+          <select class="input" name="session" id="session">
+            <option value="2020-2021">2020-2021</option>
+            <option value="2021-2022">2021-2022</option>
+            <option value="2022-2023">2022-2023</option>
+            <option value="2023-2024">2023-2024</option>
+            <option value="2024-2025">2024-2025</option>
+          </select>
+        </div>
+        <div class="form-inputs checkbox-section">
+          <input type="checkbox" id="checkbox" value="checkbox" checked>
+          <label for="Remember Password">Remember Password</label>
+          <br>
+        </div>
+        <div class="button-section">
+          <button type="submit">SIGN IN</button>
+          <p>Forgot your password? Click here</p>
+          <a href="">Privacy Policy</a>
+        </div>
         <table>
-            <tr>
-                <th>
-                    <label for="institute">INSTITUTE</label>
-                </th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th>
-                    <label for="session">SESSION</label>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <select name="institute" id="institute">
-                        <option value="CCRSM">CCRSM</option>
-                        <option value="CBS">CBS</option>
-                        <option value="CSPA">CSPA</option>
-                        <option value="CCCE">CCCE</option>
-                        <option value="CSL">CSL</option>
-                        <option value="CSH">CSH</option>
-                        <option value="CSMC">CSMC</option>
-                        <option value="PHD">PHD</option>
-                        <option value="CBS(PG)">CBS(PG)</option>
-                        <option value="CUSMS">CUSMS</option>
-                        <option value="CCHM">CCHM</option>
-                        <option value="CCP">CCP</option>
-                        <option value="CDS">CDS</option>
-                        <option value="GESE">GESE</option>
-                        <option value="CCE">CCE</option>
-                        <option value="CSPC">CSPC</option>
-                        <option value="SBFS">SBFS</option>
-                        <option value="CSCA">CSCA</option>
-                        <option value="CCSM">CCSM</option>
-                        <option value="CUIET">CUIET</option>
-                        <option value="CCAE">CCAE</option>
-                        <option value="CSHSU">CSHSU</option>
-                    </select>  
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <select name="session" id="session">
-                        <option value="2020-2021">2020-2021</option>
-                        <option value="2021-2022">2021-2022</option>
-                        <option value="2022-2023">2022-2023</option>
-                        <option value="2023-2024">2023-2024</option>
-                        <option value="2024-2025">2024-2025</option>        
-                    </select>
-                </td>
-            </tr>
-        </table><br>
-    
-        <button type="submit">LOGIN</button>
-        <p>FORGOT PASSWORD</p>
-    </form>
+          <tr>
+            <th>
+              <img src="apple_store_icon.png">
+            </th>
+            <th>
+              <img src="gplaystore_icon.png">
+            </th>
+          </tr>
+          <tr>
+            <td>Mobile App</td>
+            <td>Code : 800002</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Powered by</th>
+            <th>
+              <img src="code-brigade-logo-small.png" width="180">
+            </th>
+          </tr>
+        </table>
+      </form>
     </div>
-    
-        <h2>Powered by</h2>
-    <div class="main3">
-        <img src="powered.png">
-
-    </div>
-    
-    </div>
-</body>
+  </body>
 </html>
