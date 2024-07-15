@@ -1,0 +1,29 @@
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+.text{
+    text-align: center;
+    /* text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: start; */
+}
+.para{
+    text-align: justify;
+    /* text-align: inherit; */
+}
+a{
+  /* text-decoration: none; */
+  /* text-decoration: line-through; */
+  /* text-decoration: overline; */
+  /* text-decoration-color:red ;
+  text-decoration-style: double; */
+  text-decoration-style: wavy;
+}
+h1{
+  text-shadow: 10px 8px 5px blue;
+  /* color: transparent; */
+}
