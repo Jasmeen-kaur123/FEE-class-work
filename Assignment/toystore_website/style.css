@@ -1,0 +1,365 @@
+* {
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  margin-left: 70px;
+}
+
+.navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+li a {
+  color: black;
+  font-size: 20px;
+  margin-right: 45px;
+  text-align: center;
+}
+
+.cart {
+  display: flex;
+  padding-left: 400px;
+}
+
+.heading1 {
+  color: greenyellow;
+  font-size: 40px;
+}
+
+.heading2 {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.toys {
+  background-color: yellow;
+  width: 500px;
+  height: 170px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px;
+}
+
+.container1 {
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: #ffd700;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  float: right;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
+
+.toys2 {
+  background-color: magenta;
+  width: 500px;
+  height: 170px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.para {
+  font-family: "Varela Round", sans-serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.button1 {
+  border: none;
+  padding: 40px;
+  font-size: large;
+  background-color: white;
+  background-position: 100% 50%;
+  background-size: 11px;
+  background-repeat: no-repeat;
+}
+
+.line1 {
+  width: 1250px;
+  height: 3px;
+  background-color: rgba(128, 128, 128, 0.395);
+  border-radius: 20px;
+}
+
+.line2 {
+  width: 140px;
+  height: 3px;
+  background-color: greenyellow;
+  padding-left: 80px;
+}
+
+.container2 {
+  padding-top: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.buttons {
+  background-color: greenyellow;
+  font-size: medium;
+  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+}
+
+.teddy {
+  width: 250px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.097);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.429);
+  padding-bottom: 20px;
+}
+
+.container4 {
+  padding-top: 60px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 130px;
+  padding-bottom: 40px;
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot:hover{
+  transform: scale(1.1);
+}
+
+.container5 {
+  text-align: center;
+  color: white;
+  padding: 150px;
+  font-size: larger;
+  background: url("body_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.topic {
+  font-size: xx-large;
+  font-family: "Varela Round", sans-serif;
+  padding-bottom: 30px;
+}
+
+.topic2 {
+  color: greenyellow;
+}
+
+.main2 {
+  background-color: white;
+}
+
+.container6 {
+  text-align: center;
+  font-size: larger;
+  padding: 80px;
+}
+
+.para2 {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.container7 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+
+.image_boy {
+  border-radius: 10%;
+}
+
+.topic3 {
+  padding-top: 50px;
+}
+
+.box {
+  font-size: 20px;
+  display: flex;
+  border: 3px solid rgba(128, 128, 128, 0.841);
+  border-radius: 25px;
+  width: 70%;
+  padding-top: 20px;
+  box-shadow: 5px 5px 5px 3px rgba(128, 128, 128, 0.429);
+}
+
+.form1 {
+  border-radius: 25px;
+  padding: 10px;
+  width: 300px;
+}
+
+.topic4 {
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+.topic5 {
+  padding-left: 30px;
+}
+
+.outer_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 20px;
+}
+
+.subscribe_button {
+  padding-top: 20px;
+}
+
+.container8 {
+  padding-top: 80px;
+  padding-left: 270px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.images_border {
+  border-radius: 10px;
+}
+
+.photo_button {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.images_border:hover {
+  transform: scale(1.2);
+}
+
+.teddy:hover{
+  transform: scale(1.1);
+}
+
+.buttons:hover{
+  transform: scale(1.1);
+}
+
+.foonav{
+  padding-left:310px;
+}
+#l{
+  font-size:22px;
+}
+.fooicon{
+  padding-left:260px; 
+}
+.footer2{
+  font-family: 'Varela Round', sans-serif;
+  background-color: #a2cb1d;
+  padding:12px;
+  color: #ffffff;
+}
+.bottom{
+  margin-left:40px;
+  margin-right:40px;
+}
+#right{
+  margin-left:630px;
+  color: white;
+}
