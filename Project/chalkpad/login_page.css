@@ -1,0 +1,74 @@
+body {
+  background: url("Chitkara_University_pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 10px solid red;
+  border-radius: 10px;
+  margin: 0;
+}
+
+img.top-right {
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+
+.main2 {
+  background-color: white;
+  padding-top: 20px;
+  border: 2px solid grey;
+  width: 270px;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.logo-section {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.form-inputs .input {
+  padding: 5px;
+  border: 1px solid skyblue;
+}
+
+.form-inputs.checkbox-section {
+  flex-direction: row;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-section button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+h1 {
+  color: brown;
+  margin-left: 200px;
+  padding-top: 15px;
+}
+
+p {
+  color: brown;
+}
+h2 {
+  margin-left: 350px;
+}
+.main3 {
+  margin-left: 290px;
+}
