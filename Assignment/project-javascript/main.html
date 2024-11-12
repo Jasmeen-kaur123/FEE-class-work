@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card with Update</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card" id="profile-card">
+    <img src="panda.jpg" alt="Profile Picture" id="profile-pic">
+    <h2 id="profile-name">Panda</h2>
+    <p id="profile-bio">Bio Still </p>
+</div>
+<div class="form">
+    <p>Update Name:</p>
+    <input type="text" id="new-name" placeholder="Enter New Name">
+    
+    <p>Update Bio:</p>
+    <input type="text" id="new-bio" placeholder="Enter New Bio">
+    
+    <p>Update Profile Picture URL:</p>
+    <input type="text" id="new-pic-url" placeholder="Enter Image URL">
+    
+    <button onclick="updateProfile()">Update Profile</button>
+</div>
+
+
+</body>
+</html>

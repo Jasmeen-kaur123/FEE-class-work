@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+}
+.card, .form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color:rgba(128, 128, 128, 0.249);
+  text-align: center;
+}
+img {
+  border-radius: 20%;
+  width: 60px;
+  height: 60px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  border-radius: 5px;
+}
+button {
+  padding: 10px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blue;
+}
